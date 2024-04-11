@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "乛çavreş🥀 🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "乛exelans🥀 🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6683031701").split()))
 
@@ -43,7 +43,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/cavres34/Cavres",
+    "https://github.com/Hebun2121/Cavres",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
