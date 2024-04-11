@@ -142,7 +142,7 @@ async def gen_thumb(videoid, user_id, theme):
             text_w, text_h = draw.textsize(f"exelans müzik ", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"exelansa müzik ",
+                f"exelans müzik ",
                 fill="red",
                 font=font,
             )
