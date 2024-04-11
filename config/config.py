@@ -29,11 +29,11 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002063774987"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "乛exelans🥀 🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6683031701").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6335200063").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -49,8 +49,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/sadecebotyeri")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/sadecebotyeri")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ekselansmalikane")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ekselansmalikane")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -106,7 +106,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL", 
-    "https://te.legra.ph/%C3%87avre%C5%9F-m%C3%BCzik-03-18",
+    "https://te.legra.ph/Exelans-04-04-2",
 )
 
 PING_IMG_URL = getenv(
